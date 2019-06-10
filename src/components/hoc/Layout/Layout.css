@@ -8,15 +8,4 @@
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#05abe0',GradientType=0 ); /* IE6-9 */
 }
 
-.Layout ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.Layout ul>li{
-    width: 50%;
-    float: left;
-    height: 100vh;
-}
 
