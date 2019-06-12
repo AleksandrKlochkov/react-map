@@ -1,0 +1,36 @@
+.Button{
+    width: 100%;
+    min-height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 0 0 10px 0;
+    color:#fff;
+    background:#6f6f6f;
+}
+
+.Button:hover{
+    filter: brightness(120%);
+}
+
+.Button.route{
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background: #2c664c;
+}
+
+.Button.search{
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background: #02497b;
+}
+
+.Button.add-point{
+    display: inline-block;
+    max-width: 50px;
+    float: left;
+}

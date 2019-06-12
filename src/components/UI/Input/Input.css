@@ -13,6 +13,7 @@
 .Input input{
     display: block;
     box-sizing: border-box;
+    min-height: 50px;
     border: 1px solid #bebebe;
     padding:  7px;
     margin: 0 0 5px;

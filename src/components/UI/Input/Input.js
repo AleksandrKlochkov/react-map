@@ -16,6 +16,8 @@ const Input = props => {
                 if={htmlFor}
                 value={props.value}
                 onChange={props.onChange}
+                placeholder={props.placeholder}
+                onChange={props.onChange}
             />
             <span>{props.errorMessage}</span>
         </div>

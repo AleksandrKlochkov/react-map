@@ -22,3 +22,26 @@
     margin: 0;
     padding: 0;
 }
+
+.Drawer .listAdress li {
+    margin: 0 0 10px 0;
+    max-width: 100%;
+}
+
+.Drawer .listAdress li a {
+    cursor: pointer;
+    text-decoration: none;
+    color:#2c664c;
+    font-size: 12px;
+    font-weight: bold;
+}
+.Drawer .listAdress li i.delete{
+    color: red;
+    float: right;
+}
+
+.Drawer .listAdress li i.delete:hover{
+    cursor: pointer;
+    filter: brightness(70%);
+  }
+
